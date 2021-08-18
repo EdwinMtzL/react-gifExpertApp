@@ -8,7 +8,7 @@ export default function GifGrid({category}) {
 
     return (
         <>
-        <h3 className="animate__animated animate__fadeInDown">{category}</h3>
+        <h3 className="animate__animated animate__fadeInDown">{category}</h3> <hr/>
             { loading && <p className='animate__animated animate__flash'>Cargando...</p>}
 
         {<div className="card-grid">
